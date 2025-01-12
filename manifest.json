@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AAU Test Ext",
+  "version": "2.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://campus.aau.at/sp/ctl/left?sprache_nr=35"],
+      "js": ["ContentMenu.js"],
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+        "cookies"
+    ]
+}
